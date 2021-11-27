@@ -1,0 +1,15 @@
+{
+    "quasartest": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-quasartest-quasartest-05729-authRole",
+            "UnauthRoleArn": "arn:aws:iam::229031324167:role/amplify-quasartest-quasartest-05729-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::229031324167:role/amplify-quasartest-quasartest-05729-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "amplify-quasartest-quasartest-05729-deployment",
+            "UnauthRoleName": "amplify-quasartest-quasartest-05729-unauthRole",
+            "StackName": "amplify-quasartest-quasartest-05729",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:229031324167:stack/amplify-quasartest-quasartest-05729/bb655160-4f9a-11ec-8cfc-024ba6091dfa",
+            "AmplifyAppId": "d1zpupnaw0evzv"
+        }
+    }
+}
