@@ -10,7 +10,7 @@ applications:
       phases:
         build:
           commands:
-            - npm install
+            - nvm install 13
             - npx quasar build
       artifacts:
         baseDirectory: dist/spa

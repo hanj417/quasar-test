@@ -10,6 +10,13 @@
             "StackName": "amplify-quasartest-quasartest-05729",
             "StackId": "arn:aws:cloudformation:ap-northeast-2:229031324167:stack/amplify-quasartest-quasartest-05729/bb655160-4f9a-11ec-8cfc-024ba6091dfa",
             "AmplifyAppId": "d1zpupnaw0evzv"
+        },
+        "categories": {
+            "auth": {
+                "quasartestb9664a8b": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
         }
     }
 }

@@ -8,7 +8,7 @@
             "SourceDir": "src",
             "DistributionDir": "dist",
             "BuildCommand": "npx quasar build",
-            "StartCommand": "npx quasar serve"
+            "StartCommand": "npx quasar dev"
         }
     },
     "providers": [
