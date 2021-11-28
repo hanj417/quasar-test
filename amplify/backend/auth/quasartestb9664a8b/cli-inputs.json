@@ -1,14 +1,16 @@
 {
+  "version": "1",
+  "cognitoConfig": {
     "identityPoolName": "quasartestb9664a8b_identitypool_b9664a8b",
     "allowUnauthenticatedIdentities": false,
     "resourceNameTruncated": "quasarb9664a8b",
     "userPoolName": "quasartestb9664a8b_userpool_b9664a8b",
     "autoVerifiedAttributes": [
-        "email"
+      "email"
     ],
     "mfaConfiguration": "OFF",
     "mfaTypes": [
-        "SMS Text Message"
+      "SMS Text Message"
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
@@ -18,38 +20,40 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-        "email"
+      "email"
     ],
+    "aliasAttributes": [],
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
-        "email"
+      "email"
     ],
     "userpoolClientReadAttributes": [
-        "email"
+      "email"
     ],
     "userpoolClientLambdaRole": "quasarb9664a8b_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "quasartestb9664a8b",
     "authSelections": "identityPoolAndUserPool",
+    "resourceName": "quasartestb9664a8b",
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "hostedUI": false,
     "authRoleArn": {
-        "Fn::GetAtt": [
-            "AuthRole",
-            "Arn"
-        ]
+      "Fn::GetAtt": [
+        "AuthRole",
+        "Arn"
+      ]
     },
     "unauthRoleArn": {
-        "Fn::GetAtt": [
-            "UnauthRole",
-            "Arn"
-        ]
+      "Fn::GetAtt": [
+        "UnauthRole",
+        "Arn"
+      ]
     },
-    "useDefault": "defaultSocial",
-    "hostedUI": true,
-    "hostedUIDomainName": "quasartestb9664a8b-b9664a8b",
-    "authProvidersUserPool": [],
-    "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://howcs.kr:8080/\"],\"LogoutURLs\":[\"https://howcs.kr:8080/\"]}",
-    "userPoolGroupList": [],
-    "dependsOn": []
+    "breakCircularDependency": false,
+    "useEnabledMfas": false,
+    "dependsOn": [],
+    "serviceName": "Cognito",
+    "authProviders": []
+  }
 }
